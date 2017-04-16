@@ -9,7 +9,7 @@ num_pixels = 784
 num_images = None
 num_scenarios = 10
 
-# build model
+# build modelnum_pixels
 images = tf.placeholder(tf.float32, [num_images, num_pixels])
 weights = tf.Variable(tf.zeros([num_pixels, num_scenarios]))
 bias = tf.Variable(tf.zeros([num_scenarios]))
